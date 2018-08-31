@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gideon/GoBot/config"
+	"github.com/gideon/config"
 
 	"github.com/bwmarrin/discordgo"
 )

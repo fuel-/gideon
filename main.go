@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gideon/GoBot/bot"
-	"github.com/gideon/GoBot/config"
+	"github.com/gideon/bot"
+	"github.com/gideon/config"
 )
 
 func main() {
