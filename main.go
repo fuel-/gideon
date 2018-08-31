@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 
 	"github.com/fuel-/gideon/bot"
@@ -9,7 +10,11 @@ import (
 )
 
 func main() {
-	fmt.Println(os.Getwd())
+	port := os.Getenv("PORT")
+
+	if port == "" {
+		log.Fatal("$PORT must be set")
+	}
 	err := config.ReadConfig()
 
 	if err != nil {
