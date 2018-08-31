@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gideon/config"
+	"github.com/fuel-/gideon/config"
 
 	"github.com/bwmarrin/discordgo"
 )
