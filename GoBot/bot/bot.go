@@ -108,6 +108,9 @@ func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 		} else if m.Content == "!brad" {
 			message = "is dad."
 			_, _ = s.ChannelMessageSend(m.ChannelID, message)
+		} else if m.Content == "!goodbot" {
+			message = "Aww, Thank you! https://media.giphy.com/media/1gbQIeNzZxcSk/giphy.gif"
+			_, _ = s.ChannelMessageSend(m.ChannelID, message)
 		}
 		fmt.Println(m.Content)
 	}
