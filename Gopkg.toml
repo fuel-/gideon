@@ -27,7 +27,7 @@
 [metadata.heroku]
   root-package = "github.com/gideon/GoBot"
   go-version = "1.10.3"
-  install = [ "./..." ] 
+  install = [ "./GoBot/..." ] 
 
 [[constraint]]
   name = "github.com/bwmarrin/discordgo"
