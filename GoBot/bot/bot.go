@@ -2,10 +2,11 @@ package bot
 
 import (
 	"fmt"
-	"gideon/GoBot/config"
 	"math"
 	"strings"
 	"time"
+
+	"github.com/gideon/GoBot/config"
 
 	"github.com/bwmarrin/discordgo"
 )
