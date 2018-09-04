@@ -45,7 +45,7 @@ func Start() {
 }
 
 func missionTimeGet() (hours, minutes int) {
-	loc, _ := time.LoadLocation("Local")
+	loc, _ := time.LoadLocation("America/Chicago")
 	now := time.Now().In(loc)
 	fmt.Println("\nToday : ", loc, " Time : ", now)
 
